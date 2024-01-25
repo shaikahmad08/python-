@@ -1,0 +1,9 @@
+'''import json
+data={'id': 1, 'first_name': 'Sk', 'last_name': 'Baasha', 'gender': 'Male'}
+new_data=json.dumps(data)
+print(new_data)
+'''
+import json
+data=[{'id': 1, 'first_name': 'Vlad', 'last_name': 'Blodgetts', 'gender': 'Male'}, {'id': 2, 'first_name': 'Darlleen', 'last_name': 'Baldrey', 'gender': 'Bigender'}, {'id': 3, 'first_name': 'Hilliary', 'last_name': 'Katte', 'gender': 'Female'}, {'id': 4, 'first_name': 'Willi', 'last_name': 'Croser', 'gender': 'Male'}, {'id': 5, 'first_name': 'Shellysheldon', 'last_name': 'Follos', 'gender': 'Male'}, {'id': 6, 'first_name': 'Reuben', 'last_name': 'Pikett', 'gender': 'Male'}, {'id': 7, 'first_name': 'Haleigh', 'last_name': 'Bagg', 'gender': 'Male'}, {'id': 8, 'first_name': 'Brian', 'last_name': 'Jancey', 'gender': 'Male'}, {'id': 9, 'first_name': 'Adore', 'last_name': 'Papierz', 'gender': 'Female'}, {'id': 10, 'first_name': 'Georgia', 'last_name': 'Molloy', 'gender': 'Female'}]
+new_data=json.dumps(data)
+print(new_data)
