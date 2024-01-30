@@ -12,6 +12,11 @@ for data in datas:
     if data['gender']=='Female':
         print(data['first_name'],data['last_name'],data['gender'])
 
+#print male and Female user
+for data in datas:
+    if data['gender'] in ['Male','Female']:
+        print(data['first_name'],data['last_name'],data['gender'])
+        
 #print without male and female
 for data in datas:
     if data['gender']!='Male'and data['gender']!='Female':
